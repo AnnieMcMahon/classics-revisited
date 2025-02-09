@@ -7,16 +7,16 @@ export const navigationData = [
     },
     {
       name: "Services",
-      path: "/services",
+      path: "#services",
       
     },
     {
       name: "About",
-      path: "/about",
+      path: "#about",
       },
     {
       name: "Contact",
-      path: "/contact",
+      path: "#contact",
     },
   ];
   
