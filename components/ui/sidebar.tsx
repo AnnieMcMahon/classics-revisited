@@ -264,8 +264,7 @@ const SidebarTrigger = React.forwardRef<
   React.ElementRef<typeof Button>,
   React.ComponentProps<typeof Button>
 >(({ className, onClick, ...props }, ref) => {
-  const {isMobile, open, openMobile, toggleSidebar } = useSidebar()
-  // const { , state, , setOpenMobile } = useSidebar()
+  const {openMobile, toggleSidebar } = useSidebar()
 
   return (
       openMobile === false &&

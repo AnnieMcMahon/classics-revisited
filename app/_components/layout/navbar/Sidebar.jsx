@@ -14,14 +14,14 @@ import {
 import Link from "next/link"
 
 export function AppSidebar() {
-    const {toggleSidebar, open, openMobile} = useSidebar()
+    const {toggleSidebar, openMobile} = useSidebar()
 
   return (
     <Sidebar>
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel className="p-1 mb-5 relatvie w-full">
-            <Link href="/" className="flex absolute -top-2 left-0">
+            <Link href="/" className="flex absolute -top-2 left-3">
               <img alt="company logo" src="/images/logos/FullLogo_Transparent.png" width={100} height={100}
               className="object-cover"
               />
@@ -31,10 +31,9 @@ export function AppSidebar() {
           <SidebarGroupContent>
             <SidebarMenu>
               {navigationData.map((item) => (
-                <SidebarMenuItem key={item.name} className="p-1">
+                <SidebarMenuItem key={item.name} className="p-1 ml-5">
                   <SidebarMenuButton className="pb-7 pt-7" asChild>
                     <a href={item.path} className="text-[17px] md:text-[15px]">
-                      <item.icon />
                       {item.name}
                     </a>
                   </SidebarMenuButton>
