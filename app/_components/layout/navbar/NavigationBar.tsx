@@ -10,18 +10,20 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 const NagivationBar = ({children}) => {
     return (
       <SidebarProvider>
-        <nav className="bg-white shadow-md fixed top-0 w-full z-50">
-        <div className="container mx-auto pl-5 pr-5 md:px-6 py-3 flex justify-between items-center">
+        <nav className="bg-white shadow-md fixed p-3 md:p-0 top-0 w-full z-50">
+        <div className="container w-[100%] mx-auto pl-1 pr-2 py-5 lg:py-6 flex justify-between items-center">
           {/* Logo or Title */}
-          <div className="text-xl font-bold text-gray-800">
-            <Link href="/" className="m-0 p-0" style={{fontWeight:'0'}}>
-              <Image alt="a renovation company" width={50} height={50} src="/images/logos/logo1.webp" />
+          <div className="text-xl w-full font-bold text-gray-800">
+            <Link href="/" className="m-0 absolute -top-2 lg:-top-1 left-0" style={{fontWeight:'0'}}>
+              <Image alt="a renovation company" width={100} height={100} src="/images/logos/FullLogo_Transparent.png"
+              className="object-contain"
+              />
             </Link>
           
           </div>
   
           {/* Navigation Links */}
-          <div className="hidden md:flex space-x-12">
+          <div className="hidden md:flex lg:gap-24 justify-end md:gap-20 w-full">
             {
               navigationData?.map((item, index ) => {
                 return(

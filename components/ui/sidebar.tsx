@@ -272,7 +272,7 @@ const SidebarTrigger = React.forwardRef<
       <button
       ref={ref}
       data-sidebar="trigger"
-      className={cn("md:hidden cursor-pointer m-0 bg-transparent", className)}
+      className={cn("md:hidden text-gray-500 cursor-pointer absolute top-5 right-2 m-0 pr-2 bg-transparent", className)}
       onClick={(event) => {
         onClick?.(event)
         toggleSidebar()
