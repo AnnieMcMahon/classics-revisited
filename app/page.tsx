@@ -1,5 +1,5 @@
 "use client"
-import About from "@/app/about/about";
+import About from "@/app/_components/about/about";
 
 export default function Home() {
   return (

@@ -42,7 +42,7 @@ export function AppSidebar() {
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
-
+                
         {
             openMobile != false && 
             <button onClick={(event) => {
