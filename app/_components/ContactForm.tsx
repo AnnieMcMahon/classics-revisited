@@ -83,7 +83,7 @@ export default function ContactForm() {
             <FormItem>
               <FormLabel className="font-bold">Name</FormLabel>
               <FormControl>
-                <Input className="w-96 border-black" {...field} />
+                <Input className="sm-w-96 w-72 border-black" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -98,7 +98,7 @@ export default function ContactForm() {
             <FormItem>
               <FormLabel className="font-bold">Email</FormLabel>
               <FormControl>
-                <Input className="w-96 border-black" type="email" {...field} />
+                <Input className="sm-w-96 w-72 border-black" type="email" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -112,7 +112,7 @@ export default function ContactForm() {
             <FormItem>
               <FormLabel className="font-bold">Phone</FormLabel>
               <FormControl>
-                <Input className="w-96 border-black" type="tel" {...field} />
+                <Input className="sm-w-96 w-72 border-black" type="tel" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
