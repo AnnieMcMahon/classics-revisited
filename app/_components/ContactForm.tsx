@@ -14,6 +14,8 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { sendEmail } from "@/app/actions/sendEmail"; 
+import { useState } from "react";
 
 const formSchema = z
   .object({
@@ -41,6 +43,8 @@ const formSchema = z
 
 
 export default function ContactForm() {
+  const [status, setStatus] = useState<string | null>(null);
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -51,9 +55,16 @@ export default function ContactForm() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    // Handle form submission logic, e.g., sending to an API
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    setStatus("Sending...");
+    const response = await sendEmail(values.name, values.email || "", values.phone || "", values.message);
+    
+    if (response.success) {
+      setStatus("Message sent successfully!");
+      form.reset();
+    } else {
+      setStatus("Failed to send message. Please try again.");
+    }
   }
 
   return (
@@ -122,6 +133,7 @@ export default function ContactForm() {
             </FormItem>
           )}
         />
+        {status && <p className="text-center text-sm text-gray-600">{status}</p>}
 
           <Button
             type="submit"
