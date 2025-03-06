@@ -20,7 +20,7 @@ export function AppSidebar() {
     <Sidebar>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel className="p-1 mb-5 relatvie w-full">
+          <SidebarGroupLabel className="p-1 mb-5 relative w-full">
             <Link href="/" className="flex absolute -top-2 left-3">
               <img alt="company logo" src="/images/logos/FullLogo_Transparent.png" width={100} height={100}
               className="object-cover"

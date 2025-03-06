@@ -20,7 +20,7 @@ export default function Services() {
   const { isMobile } = useScreenSize();
 
   return (
-    <section className="container min-w-full border p-8 md:p-12 lg:p-20">
+    <section className="container min-w-full border p-8 md:p-12 lg:p-20" id="services">
       {/* Container for the title and introductory text */}
       <div className="max-w-7xl">
         <h1 className="text-2xl font-bold md:text-[2rem]">Services</h1>

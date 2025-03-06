@@ -1,5 +1,5 @@
 import React from 'react'
-import { navigationData } from '../navbar/navbarData'
+import { navigationData } from '../Navbar/navbarData'
 import Link from 'next/link'
 import Image from 'next/image'
 

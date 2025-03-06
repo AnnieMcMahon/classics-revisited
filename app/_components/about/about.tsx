@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="container min-w-full border p-8 md:p-12 lg:p-20">
+    <div className="container min-w-full border p-8 md:p-12 lg:p-20" id="about">
       <div className="max-w-2xl">
         <h1 className="max-w-lg p-2 text-xl font-bold">
           Classics Revisited specializes in transforming existing homes into
