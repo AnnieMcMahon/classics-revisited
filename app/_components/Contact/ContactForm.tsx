@@ -68,7 +68,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="px-8 py-10 bg-gray-100"
+    <div className="px-8 pt-24 bg-gray-100"
     id="contact">
     <h2 className="text-2xl font-bold">Contact Us</h2>
     <Form {...form}>

@@ -1,60 +1,60 @@
-"use client"
-import { ReactNode } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import {navigationData} from './navbarData';
-import {AppSidebar} from './Sidebar';
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-
+'use client';
+import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
+import Image from 'next/image';
+import Link from 'next/link';
+import { ReactNode } from 'react';
+import { navigationData } from '../../data/navbarData';
+import { AppSidebar } from './Sidebar';
 
 interface NavProps {
   children?: ReactNode;
 }
 
-
-const NagivationBar = ({children} : NavProps) => {
-    return (
-      <SidebarProvider>
-        <nav className="bg-white shadow-md fixed p-3 md:p-0 top-0 w-full z-50">
-        <div className="container w-[100%] mx-auto pl-1 pr-2 py-5 lg:py-6 flex justify-between items-center">
-
-          <div className="text-xl w-full font-bold text-gray-800">
-            <Link href="/" className="m-0 absolute -top-2 lg:-top-1 left-0" style={{fontWeight:'0'}}>
-              <Image alt="a renovation company" width={100} height={100} src="/images/logos/FullLogo_Transparent.png"
-              className="object-contain"
+const NagivationBar = ({ children }: NavProps) => {
+  return (
+    <SidebarProvider>
+      <nav className="fixed top-0 z-50 w-full bg-white p-3 shadow-md md:p-0">
+        <div className="container mx-auto flex w-[100%] items-center justify-between py-5 pl-1 pr-2 lg:py-6">
+          <div className="w-full text-xl font-bold text-gray-800">
+            <Link
+              href="/#about"
+              className="absolute -top-2 left-0 m-0 lg:-top-1"
+              style={{ fontWeight: '0' }}
+            >
+              <Image
+                alt="a renovation company"
+                width={100}
+                height={100}
+                src="/images/logos/FullLogo_Transparent.png"
+                className="object-contain"
               />
             </Link>
-          
           </div>
-  
-          <div className="hidden md:flex lg:gap-24 justify-end md:gap-20 w-full">
-            {
-              navigationData?.map((item, index ) => {
-                return(
-                  <Link
+
+          <div className="hidden w-full justify-end md:flex md:gap-20 lg:gap-24">
+            {navigationData?.map((item, index) => {
+              return (
+                <Link
                   href={item.path}
                   key={index}
-                  className="text-gray-500 hover:text-gray-900 font-light transition-colors"
-                  >
+                  className="font-light text-gray-500 transition-colors hover:text-gray-900"
+                >
                   {item.name}
                 </Link>
-                )
-              })
-            }
+              );
+            })}
           </div>
- 
+
           <div className="md:hidden">
             <AppSidebar />
-          
+
             <SidebarTrigger />
-            {children} 
-          </div>          
+            {children}
+          </div>
         </div>
       </nav>
-      </SidebarProvider>
-      
-        
-    );
-  }
-  
-  export default NagivationBar;
+    </SidebarProvider>
+  );
+};
+
+export default NagivationBar;

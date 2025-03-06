@@ -1,5 +1,6 @@
 'use client';
 
+import { services } from '@/app/data/services';
 import {
   Accordion,
   AccordionContent,
@@ -13,14 +14,13 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { services } from '@/data/services';
 import { useScreenSize } from '@/lib/hooks/useScreenSize';
 
 export default function Services() {
   const { isMobile } = useScreenSize();
 
   return (
-    <section className="container min-w-full border p-8 md:p-12 lg:p-20" id="services">
+    <section className="container min-w-full border px-8 pt-24" id="services">
       {/* Container for the title and introductory text */}
       <div className="max-w-7xl">
         <h1 className="text-2xl font-bold md:text-[2rem]">Services</h1>
