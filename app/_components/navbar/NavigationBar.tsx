@@ -3,7 +3,7 @@ import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ReactNode } from 'react';
-import { navigationData } from '../../data/navbarData';
+import { navigationData } from '@/app/data/navbarData';
 import { AppSidebar } from './Sidebar';
 
 interface NavProps {

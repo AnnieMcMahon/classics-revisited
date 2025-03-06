@@ -18,7 +18,7 @@ export function AppSidebar() {
 
   return (
     <Sidebar>
-      <SidebarContent>
+      <SidebarContent className="bg-white">
         <SidebarGroup>
           <SidebarGroupLabel className="relative mb-5 w-full p-1">
             <Link href="/" className="absolute -top-2 left-3 flex">
@@ -48,7 +48,7 @@ export function AppSidebar() {
 
         {openMobile != false && (
           <button
-            onClick={(event) => {
+            onClick={() => {
               toggleSidebar();
             }}
             className="fixed right-3 top-3 animate-bounce cursor-pointer rounded-full bg-red-100 bg-opacity-25 p-1 transition-all animate-in"
