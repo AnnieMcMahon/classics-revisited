@@ -1,0 +1,74 @@
+export const exteriorGallery = [
+  {
+    photo: '/images/exteriors/exterior1.jpeg',
+    title: 'exterior 1',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/exteriors/exterior2.jpeg',
+    title: 'exterior 2',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/exteriors/exterior3.jpeg',
+    title: 'exterior 3',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/exteriors/exterior4.jpeg',
+    title: 'exterior 4',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/exteriors/exterior6.jpeg',
+    title: 'exterior 6',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/exteriors/exterior7.jpeg',
+    title: 'exterior 7',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/exteriors/exterior8.jpeg',
+    title: 'exterior 8',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/exteriors/exterior9.jpeg',
+    title: 'exterior 9',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/exteriors/exterior10.jpeg',
+    title: 'exterior 10',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/exteriors/exterior11.jpeg',
+    title: 'exterior 11',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/exteriors/exterior12.jpeg',
+    title: 'exterior 12',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/exteriors/exterior13.jpeg',
+    title: 'exterior 13',
+    width: 800,
+    height: 600,
+  },
+];
