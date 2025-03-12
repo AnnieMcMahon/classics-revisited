@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn('mx-auto min-h-screen antialiased')}>
+      <body className={cn('mx-auto min-h-screen w-full antialiased')}>
         <NavigationBar />
         {children}
         <Footer />
