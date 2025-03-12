@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="border px-8 pt-16 flex flex-col lg:flex-row md:align-center" id="hero">
       <div className="lg:w-[60%] order-first lg:order-last">
-        <img src="images/main-pics/hero.jpeg" alt="Hero Image" className="mb-8 lg:mb-0 h-full" />
+        <img src="images/main-pics/hero.jpeg" alt="Hero Image" className="mb-8 lg:mb-0" />
       </div>
       <div className="lg:w-[40%]">
         <h1 className="text-2xl/10 font-bold md:text-[2rem] lg:mt-24">
