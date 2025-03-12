@@ -37,9 +37,9 @@ export function AppSidebar() {
               {navigationData.map((item) => (
                 <SidebarMenuItem key={item.name} className="ml-5 p-1">
                   <SidebarMenuButton className="pb-7 pt-7" asChild>
-                    <a href={item.path} className="text-[17px] md:text-[15px]" onClick={toggleSidebar}>
+                    <Link href={item.path} className="text-[17px] md:text-[15px]" onClick={toggleSidebar}>
                       {item.name}
-                    </a>
+                    </Link>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
