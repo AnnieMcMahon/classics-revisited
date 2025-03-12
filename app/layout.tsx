@@ -1,8 +1,8 @@
 import { cn } from '@/lib/utils';
 import type { Metadata } from 'next';
 import './globals.css';
-import NavigationBar from '@/app/_components/Navbar-Renamed/NavigationBar';
-import Footer from '@/app/_components/Footer-Renamed/Footer';
+import NavigationBar from '@/app/_components/Navbar/NavigationBar';
+import Footer from '@/app/_components/Footer/Footer';
 
 export const metadata: Metadata = {
   title: 'Classics Revisited',
