@@ -26,7 +26,7 @@ const Footer = () => {
           })}
         </div>
       </div>
-      <div className="hidden text-[14px] sm:flex">Social Links</div>
+      {/* <div className="hidden text-[14px] sm:flex">Social Links</div> */}
     </footer>
   );
 };
