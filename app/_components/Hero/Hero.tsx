@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <div className="border px-8 pt-16 flex flex-col lg:flex-row md:align-center" id="hero">
@@ -13,7 +15,7 @@ export default function Hero() {
         At Classics Revisited, we believe that the past and present can coexist beautifully, and we&apos;re here to make sure your home reflects both history and modern comfort.
         </p>
         <div className="my-8">
-        <a href="/#contact" className="px-4 py-4 bg-black text-white font-bold text-sm rounded-lg hover:bg-gray-600 transition">Contact Us Today</a>
+        <Link href="/#contact" className="px-4 py-4 bg-black text-white font-bold text-sm rounded-lg hover:bg-gray-600 transition">Contact Us Today</Link>
         </div>
       </div>
     </div>
