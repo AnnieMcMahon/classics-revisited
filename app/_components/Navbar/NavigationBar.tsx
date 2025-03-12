@@ -17,7 +17,7 @@ const NagivationBar = ({ children }: NavProps) => {
         <div className="container mx-auto flex w-[100%] items-center justify-between py-5 pl-1 pr-2 lg:py-6">
           <div className="w-full text-xl font-bold text-gray-800">
             <Link
-              href="/#about"
+              href="/#hero"
               className="absolute -top-2 left-0 m-0 lg:-top-1"
               style={{ fontWeight: '0' }}
             >

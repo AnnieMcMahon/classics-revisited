@@ -1,13 +1,13 @@
 export default function About() {
   return (
-    <div className="container min-w-full border pt-24 px-8" id="about">
-      <div className="max-w-2xl">
-        <h1 className="max-w-lg p-2 text-xl font-bold">
+    <div className="py-24 px-8" id="about">
+      <div className="lg:pl-24">
+        <h1 className="p-2 text-2xl font-bold lg:w-[50%]">
           Classics Revisited specializes in transforming existing homes into
           timeless treasures.
         </h1>
 
-        <p className="p-2">
+        <p className="p-2 text-lg lg:w-[60%]">
           We combine the charm and craftsmanship of classic design with modern
           techniques and upgrades, restoring the character of historic
           properties while enhancing their functionality for today&apos;s

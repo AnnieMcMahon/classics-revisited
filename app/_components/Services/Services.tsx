@@ -20,18 +20,16 @@ export default function Services() {
   const { isMobile } = useScreenSize();
 
   return (
-    <section className="container min-w-full border px-8 pt-24" id="services">
+    <section className="border px-8 pt-24 pb-12 bg-gray-100" id="services">
       {/* Container for the title and introductory text */}
       <div className="max-w-7xl">
         <h1 className="text-2xl font-bold md:text-[2rem]">Services</h1>
-        <p className="pt-2 text-[15px] md:text-xl">
+        <p className="pt-2 text-lg lg:w-[60%] my-8">
           At Classics Revisited, we specialize in blending timeless design with
           modern functionality.
-          <br />
           Whether you&apos;re restoring a historic home or creating a new space
           with vintage-inspired charm, our team is here to bring your vision to
           life.
-          <br />
           Explore our range of services:
         </p>
       </div>

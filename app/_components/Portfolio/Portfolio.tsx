@@ -13,7 +13,7 @@ export default function Portfolio() {
   };
 
   return (
-    <section className="container min-w-full border px-8 pt-24" id="portfolio">
+    <section className="border px-8 pt-24 pb-12" id="portfolio">
       <h1 className="text-2xl font-bold md:text-[2rem]">Our Work</h1>
 
       <div className="mt-6">
