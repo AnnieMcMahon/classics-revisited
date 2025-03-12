@@ -5,7 +5,7 @@ import { navigationData, galleryData } from '@/app/data/navbarData';
 const Footer = () => {
   return (
     <footer className="flex items-center justify-between bg-black p-10 text-white transition-all sm:p-14">
-      <div className="xs:ml-5 flex items-center gap-8 md:gap-24">
+      <div className="flex items-center gap-8 md:gap-24">
         <Link href="/#hero" className="flex w-24 h-24 justify-center overflow-hidden rounded-full bg-white">
         
           <Image
