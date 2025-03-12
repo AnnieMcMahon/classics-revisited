@@ -1,8 +1,6 @@
-// navigationData.ts
-
 export const navigationData = [
     {
-      name: "Portfolio",
+      name: "Gallery",
       path: "/#portfolio",
     },
     {
@@ -19,4 +17,23 @@ export const navigationData = [
       path: "/#contact",
     },
   ];
+
+  export const galleryData = [
+    {
+      name: "Kitchens",
+      path: "/gallery/kitchens",
+    },
+    {
+      name: "Bathrooms",  
+      path: "/gallery/bathrooms",
+    },
+    {
+      name: "Exteriors",
+      path: "/gallery/exteriors",
+    },
+    {
+      name: "Woodworking",  
+      path: "/gallery/woodworking",
+    },
+  ]
   
