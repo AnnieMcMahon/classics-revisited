@@ -1,0 +1,98 @@
+export const kitchenGallery = [
+  {
+    photo: '/images/kitchens/kitchen1.jpeg',
+    title: 'kitchen 1',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen2.jpeg',
+    title: 'kitchen 2',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen3.jpeg',
+    title: 'kitchen 3',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen4.jpeg',
+    title: 'kitchen 4',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen6.jpeg',
+    title: 'kitchen 6',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen7.jpeg',
+    title: 'kitchen 7',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen8.jpeg',
+    title: 'kitchen 8',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen9.jpeg',
+    title: 'kitchen 9',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen10.jpeg',
+    title: 'kitchen 10',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen11.jpeg',
+    title: 'kitchen 11',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen12.jpeg',
+    title: 'kitchen 12',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen13.jpeg',
+    title: 'kitchen 13',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen14.jpeg',
+    title: 'kitchen 14',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen15.jpeg',
+    title: 'kitchen 15',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen16.jpeg',
+    title: 'kitchen 16',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/kitchens/kitchen17.jpeg',
+    title: 'kitchen 17',
+    width: 800,
+    height: 600,
+  },
+];

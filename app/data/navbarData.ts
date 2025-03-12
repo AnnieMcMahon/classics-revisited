@@ -3,20 +3,20 @@
 export const navigationData = [
     {
       name: "Portfolio",
-      path: "#portfolio",
+      path: "/#portfolio",
     },
     {
       name: "Services",
-      path: "#services",
+      path: "/#services",
       
     },
     {
       name: "About",
-      path: "#about",
+      path: "/#about",
       },
     {
       name: "Contact",
-      path: "#contact",
+      path: "/#contact",
     },
   ];
   
