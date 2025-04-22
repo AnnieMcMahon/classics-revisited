@@ -23,24 +23,24 @@ export const bathroomGallery = [
     width: 800,
     height: 600,
   },
+  // {
+  //   photo: '/images/bathrooms/bathroom5.jpeg',
+  //   title: 'bathroom 5',
+  //   width: 800,
+  //   height: 600,
+  // },
   {
-    photo: '/images/bathrooms/bathroom4.jpeg',
-    title: 'bathroom 4',
+    photo: '/images/bathrooms/bathroom6.jpeg',
+    title: 'bathroom 6',
     width: 800,
     height: 600,
   },
-  {
-    photo: '/images/bathrooms/bathroom5.jpeg',
-    title: 'bathroom 5',
-    width: 800,
-    height: 600,
-  },
-  {
-    photo: '/images/bathrooms/bathroom7.jpeg',
-    title: 'bathroom 7',
-    width: 800,
-    height: 600,
-  },
+  // {
+  //   photo: '/images/bathrooms/bathroom7.jpeg',
+  //   title: 'bathroom 7',
+  //   width: 800,
+  //   height: 600,
+  // },
   {
     photo: '/images/bathrooms/bathroom8.jpeg',
     title: 'bathroom 8',
@@ -167,10 +167,10 @@ export const bathroomGallery = [
     width: 800,
     height: 600,
   },
-  {
-    photo: '/images/bathrooms/bathroom29.jpeg',
-    title: 'bathroom 29',
-    width: 800,
-    height: 600,
-  },
+  // {
+  //   photo: '/images/bathrooms/bathroom29.jpeg',
+  //   title: 'bathroom 29',
+  //   width: 800,
+  //   height: 600,
+  // },
 ];

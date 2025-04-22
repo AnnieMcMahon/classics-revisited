@@ -24,14 +24,14 @@ export const woodworkingGallery = [
     height: 600,
   },
   {
-    photo: '/images/woodworking/woodworking4.jpeg',
-    title: 'woodworking 4',
+    photo: '/images/woodworking/woodworking5.jpeg',
+    title: 'woodworking 5',
     width: 800,
     height: 600,
   },
   {
-    photo: '/images/woodworking/woodworking5.jpeg',
-    title: 'woodworking 5',
+    photo: '/images/woodworking/woodworking6.jpeg',
+    title: 'woodworking 6',
     width: 800,
     height: 600,
   },

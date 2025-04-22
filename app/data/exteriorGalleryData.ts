@@ -23,6 +23,12 @@ export const exteriorGallery = [
     width: 800,
     height: 600,
   },
+  // {
+  //   photo: '/images/exteriors/exterior5.jpeg',
+  //   title: 'exterior 5',
+  //   width: 800,
+  //   height: 600,
+  // },
   {
     photo: '/images/exteriors/exterior6.jpeg',
     title: 'exterior 6',

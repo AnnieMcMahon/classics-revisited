@@ -77,22 +77,22 @@ export const kitchenGallery = [
     width: 800,
     height: 600,
   },
-  {
-    photo: '/images/kitchens/kitchen15.jpeg',
-    title: 'kitchen 15',
-    width: 800,
-    height: 600,
-  },
-  {
-    photo: '/images/kitchens/kitchen16.jpeg',
-    title: 'kitchen 16',
-    width: 800,
-    height: 600,
-  },
-  {
-    photo: '/images/kitchens/kitchen17.jpeg',
-    title: 'kitchen 17',
-    width: 800,
-    height: 600,
-  },
+  // {
+  //   photo: '/images/kitchens/kitchen15.jpeg',
+  //   title: 'kitchen 15',
+  //   width: 800,
+  //   height: 600,
+  // },
+  // {
+  //   photo: '/images/kitchens/kitchen16.jpeg',
+  //   title: 'kitchen 16',
+  //   width: 800,
+  //   height: 600,
+  // },
+  // {
+  //   photo: '/images/kitchens/kitchen17.jpeg',
+  //   title: 'kitchen 17',
+  //   width: 800,
+  //   height: 600,
+  // },
 ];
