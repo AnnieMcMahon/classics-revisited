@@ -22,7 +22,7 @@ export default function AboutPage() {
         </h2>
 
         <p className="p-2 text-lg">
-        Founded in 1988, our family of companies has built a reputation for quality, integrity, and reliability. With over four decades of experience preserving the historic homes of New York City's suburbs, we have had the privilege of restoring some of the finest examples of 19th-century Revival architecture. <br/><br/>
+        Founded in 1988, our family of companies has built a reputation for quality, integrity, and reliability. With over four decades of experience preserving the historic homes of New York City&#39;s suburbs, we have had the privilege of restoring some of the finest examples of 19th-century Revival architecture. <br/><br/>
 Our passion lies in honoring the past while building for the future. As a full-service remodeling company, we combine a hands-on lead carpenter model with fixed pricing and complete transparency — an approach that is both efficient and uniquely personal. We are proud to bring this same commitment to excellence to the Asheville area.
         </p>
         <h2 className="p-2 text-2xl font-bold ">

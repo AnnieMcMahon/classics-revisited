@@ -17,7 +17,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg mb-6 text-center text-white">
-          At Classics Revisited, we believe that the past and present can coexist beautifully, and we're here to make sure your home reflects both history and modern comfort.
+          At Classics Revisited, we believe that the past and present can coexist beautifully, and we&#39;re here to make sure your home reflects both history and modern comfort.
         </p>
 
         <div className="text-center">
