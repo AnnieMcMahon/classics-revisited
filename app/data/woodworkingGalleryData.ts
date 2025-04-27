@@ -228,6 +228,12 @@ export const woodworkingGallery = [
     height: 600,
   },
   {
+    photo: '/images/woodworking/woodworkingModern.jpeg',
+    title: 'woodworking modern',
+    width: 800,
+    height: 600,
+  },
+  {
     photo: '/images/woodworking/woodworking39.jpeg',
     title: 'woodworking 39',
     width: 800,

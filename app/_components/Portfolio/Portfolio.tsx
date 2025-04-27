@@ -27,7 +27,7 @@ export default function Portfolio() {
                 <img
                   src={portfolio.image}
                   alt={portfolio.title}
-                  className="h-56 w-full overflow-clip object-cover"
+                  className="h-64 md:h-72 lg:h-96 w-full overflow-clip object-cover"
                 />
                 <CardDescription className="text-md m-2 text-right text-xl">
                   <Link href={portfolio.link}>

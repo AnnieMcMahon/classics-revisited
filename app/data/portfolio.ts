@@ -2,7 +2,7 @@ export const portfolio = [
   {
     id: 1,
     title: 'Kitchens',
-    image: '/images/main-pics/kitchen.jpeg',
+    image: '/images/kitchens/hero.jpeg',
     link: '/gallery/kitchens',
   },
   {
@@ -14,13 +14,13 @@ export const portfolio = [
   {
     id: 3,
     title: 'Woodworking',
-    image: '/images/main-pics/woodworking.jpeg',
+    image: '/images/woodworking/woodworking7.jpeg',
     link: '/gallery/woodworking',
   },
   {
     id: 4,
-    title: 'Exteriors',
-    image: '/images/main-pics/exterior.jpeg',
-    link: '/gallery/exteriors',
+    title: 'Before & After',
+    image: '/images/main-pics/BrownAfter.jpeg',
+    link: '/gallery/beforeAfter',
   },
 ];

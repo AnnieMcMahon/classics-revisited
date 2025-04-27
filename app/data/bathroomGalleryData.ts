@@ -1,5 +1,17 @@
 export const bathroomGallery = [
   {
+    photo: '/images/bathrooms/bathroom26.jpeg',
+    title: 'bathroom 26',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/bathrooms/bathroom28.jpeg',
+    title: 'bathroom 28',
+    width: 800,
+    height: 600,
+  },
+  {
     photo: '/images/bathrooms/bathroom1.jpeg',
     title: 'bathroom 1',
     width: 800,
@@ -18,30 +30,6 @@ export const bathroomGallery = [
     height: 600,
   },
   {
-    photo: '/images/bathrooms/bathroom4.jpeg',
-    title: 'bathroom 4',
-    width: 800,
-    height: 600,
-  },
-  // {
-  //   photo: '/images/bathrooms/bathroom5.jpeg',
-  //   title: 'bathroom 5',
-  //   width: 800,
-  //   height: 600,
-  // },
-  {
-    photo: '/images/bathrooms/bathroom6.jpeg',
-    title: 'bathroom 6',
-    width: 800,
-    height: 600,
-  },
-  // {
-  //   photo: '/images/bathrooms/bathroom7.jpeg',
-  //   title: 'bathroom 7',
-  //   width: 800,
-  //   height: 600,
-  // },
-  {
     photo: '/images/bathrooms/bathroom8.jpeg',
     title: 'bathroom 8',
     width: 800,
@@ -54,32 +42,32 @@ export const bathroomGallery = [
     height: 600,
   },
   {
-    photo: '/images/bathrooms/bathroom10.jpeg',
-    title: 'bathroom 10',
+    photo: '/images/bathrooms/bathroom14.jpeg',
+    title: 'bathroom 14',
     width: 800,
     height: 600,
   },
   {
-    photo: '/images/bathrooms/bathroom11.jpeg',
-    title: 'bathroom 11',
+    photo: '/images/bathrooms/bathroom4.jpeg',
+    title: 'bathroom 4',
     width: 800,
     height: 600,
   },
   {
-    photo: '/images/bathrooms/bathroom12.jpeg',
-    title: 'bathroom 12',
+    photo: '/images/bathrooms/bathroom23.jpeg',
+    title: 'bathroom 23',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/bathrooms/bathroom19.jpeg',
+    title: 'bathroom 19',
     width: 800,
     height: 600,
   },
   {
     photo: '/images/bathrooms/bathroom13.jpeg',
     title: 'bathroom 13',
-    width: 800,
-    height: 600,
-  },
-  {
-    photo: '/images/bathrooms/bathroom14.jpeg',
-    title: 'bathroom 14',
     width: 800,
     height: 600,
   },
@@ -96,6 +84,18 @@ export const bathroomGallery = [
     height: 600,
   },
   {
+    photo: '/images/bathrooms/bathroom11.jpeg',
+    title: 'bathroom 11',
+    width: 800,
+    height: 600,
+  },
+  {
+    photo: '/images/bathrooms/bathroom10.jpeg',
+    title: 'bathroom 10',
+    width: 800,
+    height: 600,
+  },
+  {
     photo: '/images/bathrooms/bathroom17.jpeg',
     title: 'bathroom 17',
     width: 800,
@@ -104,12 +104,6 @@ export const bathroomGallery = [
   {
     photo: '/images/bathrooms/bathroom18.jpeg',
     title: 'bathroom 18',
-    width: 800,
-    height: 600,
-  },
-  {
-    photo: '/images/bathrooms/bathroom19.jpeg',
-    title: 'bathroom 19',
     width: 800,
     height: 600,
   },
@@ -132,12 +126,6 @@ export const bathroomGallery = [
     height: 600,
   },
   {
-    photo: '/images/bathrooms/bathroom23.jpeg',
-    title: 'bathroom 23',
-    width: 800,
-    height: 600,
-  },
-  {
     photo: '/images/bathrooms/bathroom24.jpeg',
     title: 'bathroom 24',
     width: 800,
@@ -150,27 +138,9 @@ export const bathroomGallery = [
     height: 600,
   },
   {
-    photo: '/images/bathrooms/bathroom26.jpeg',
-    title: 'bathroom 26',
+    photo: '/images/bathrooms/bathroom12.jpeg',
+    title: 'bathroom 12',
     width: 800,
     height: 600,
   },
-  {
-    photo: '/images/bathrooms/bathroom27.jpeg',
-    title: 'bathroom 27',
-    width: 800,
-    height: 600,
-  },
-  {
-    photo: '/images/bathrooms/bathroom28.jpeg',
-    title: 'bathroom 28',
-    width: 800,
-    height: 600,
-  },
-  // {
-  //   photo: '/images/bathrooms/bathroom29.jpeg',
-  //   title: 'bathroom 29',
-  //   width: 800,
-  //   height: 600,
-  // },
 ];
