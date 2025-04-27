@@ -36,12 +36,12 @@ export default function WoodworkingGallery() {
                       height={1200}
                       className="rounded-lg max-w-full max-h-screen object-contain"
                     />
-                    <button
-                      onClick={() => setSelectedImage(null)}
-                      className="absolute top-4 right-4 bg-white p-2 rounded-full shadow"
-                    >
-                      ✕
-                    </button>
+                <button
+                  onClick={() => setSelectedImage(null)}
+                  className="absolute top-4 right-4 bg-white p-2 rounded-full shadow"
+                >
+                  ✕
+                </button>
                   </div>
                 </div>
               )}
