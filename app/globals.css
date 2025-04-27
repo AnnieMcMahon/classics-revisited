@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -84,5 +88,24 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2); /* Zoom in slightly */
+  }
+}
+
+.animate-zoom {
+  animation: zoom 15s ease-in-out infinite alternate;
+}
+
+@layer utilities {
+  .font-cursive {
+    font-family: 'Great Vibes', 'Allura', script;
   }
 }
