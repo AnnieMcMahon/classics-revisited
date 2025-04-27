@@ -10,7 +10,7 @@ export const navigationData = [
     },
     {
       name: "About",
-      path: "/#about",
+      path: "/AboutPage",
       },
     {
       name: "Contact",
