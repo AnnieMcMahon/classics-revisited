@@ -8,7 +8,7 @@ export default function Hero() {
     >
       <div
         className="absolute inset-0 bg-cover bg-center animate-zoom"
-        style={{ backgroundImage: "url('/images/woodworking/woodworking1.jpeg')" }}
+        style={{ backgroundImage: "url('/images/main-pics/LandingPageTweaked.jpg')" }}
       ></div>
 
       <div className="relative z-10 bg-black bg-opacity-40 p-8 rounded-lg shadow-lg max-w-80">

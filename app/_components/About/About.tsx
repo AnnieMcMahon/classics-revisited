@@ -3,8 +3,7 @@ export default function About() {
     <div className="py-24 px-8" id="about">
       <div className="lg:pl-24">
         <h1 className="p-2 text-2xl font-bold lg:w-[50%]">
-          Classics Revisited specializes in transforming existing homes into
-          timeless treasures.
+          Classics Revisited specializes in transforming homes into timeless treasures.
         </h1>
 
         <p className="p-2 text-lg lg:w-[60%]">
