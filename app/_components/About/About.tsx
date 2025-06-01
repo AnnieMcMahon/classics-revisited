@@ -12,8 +12,7 @@ export default function About() {
           properties while enhancing their functionality for today&apos;s
           lifestyle. Whether it&apos;s revitalizing intricate woodwork,
           preserving original architectural details, or adding contemporary
-          amenities, our team is dedicated to breathing new life into every
-          project.
+          amenities, our team is dedicated to reimagining every project with respect for the past.
         </p>
       </div>
     </div>
