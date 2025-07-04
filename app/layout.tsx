@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Classics Revisited',
   description: 'Renovation company website',
   icons: {
-    icon: "favicon.svg",
+    icon: "NewFavicon.svg"
   },
 };
 
