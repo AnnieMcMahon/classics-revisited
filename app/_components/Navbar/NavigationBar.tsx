@@ -14,7 +14,7 @@ const NagivationBar = ({ children }: NavProps) => {
   return (
     <SidebarProvider>
       <nav className="fixed top-0 z-50 w-full bg-gray-900 p-3 shadow-md md:p-1">
-        <div className="container mx-auto flex w-[100%] items-center justify-between py-5 pl-1 pr-2 lg:py-6">
+        <div className="container mx-auto flex w-[100%] items-center justify-between py-6 pl-1 pr-2">
           <div>
             <Link
               href="/#hero"
